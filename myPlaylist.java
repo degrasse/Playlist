@@ -1,7 +1,5 @@
 import java.util.concurrent.TimeUnit;
 
-//DO NOT NEED TO CHANGE!!
-
 public class myPlaylist {
 
 	public static void pause(int i) {
@@ -26,7 +24,7 @@ public class myPlaylist {
 		Song s8 = new Song ("Elsa and Anna", "Christophe Beck");
 		Song s9 = new Song ("Some People Are Worth Melting For", "Christophe Beck");
 
-		Playlist p1 = new Playlist ("Celia's play list");
+		Playlist p1 = new Playlist ("deGrasse's play list");
 		
 		p1.addSong(s1);
 		System.out.println("Adding ..." + s1.name);
