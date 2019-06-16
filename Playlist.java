@@ -15,20 +15,6 @@ public class Playlist {
 	// addSong
 	// this method takes a new song
 	// and always adds to the end of the playlist
-	
-	/*
-	 
-	public Song(String name, String artist) {
-		
-		this.name = name;
-		this.artist = artist;
-		this.prevSong = null;
-		this.nextSong = null;
-	}
-	
-	 */
-
-	
 	public void addSong (Song song) {
 		
 		//Song addSong = new Song(song, );
