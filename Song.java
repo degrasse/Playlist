@@ -9,9 +9,7 @@ public class Song {
 	Song nextSong;
 	
 	// constructor
-	
 	public Song(String name, String artist) {
-		
 		this.name = name;
 		this.artist = artist;
 		this.prevSong = null;
@@ -19,49 +17,14 @@ public class Song {
 	}
 	
 	// methods
-	
-
-
 	// toString
 	// This method outputs the formatted string for a song
 	public String toString() {
-		
 		String str = "\t";
-		
 		str = str + this.name + " by " + this.artist;
 		return str;
 	}
 	
-	// skip
-	// need to modify
-	// this method skips to the next song from the current song
-	
-	public Song skip() {
-		return nextSong;
-		
-		//fill in code
-		
-	}
-	
-	// back
-	// need to modify
-	// this method goes back to the previous song from the current song
-		
-	public Song back() {
-		return prevSong;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 }
